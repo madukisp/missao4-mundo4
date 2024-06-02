@@ -17,10 +17,10 @@
 * **Matrícula:** 202209170254
 * **Campus:** Morumbi
 * **Curso:** Desenvolvimento Full-Stack
-* **Disciplina:** Nível 3: Banco de Dados e SQL
+* **Disciplina:** Nível 4: Tirando Proveito da Nuvem Para Projetos de Software
 * **Turma:** 2024.1
 * **Semestre Letivo:** 4º Semestre
-* **Repositório GitHub:** [Link do Repositório GitHub](https://github.com/madukisp/azure-sql-logimove)
+* **Repositório GitHub:** [Link do Repositório GitHub](https://github.com/madukisp/missao4-mundo4)
 
 ## Objetivo da Prática
 
@@ -53,49 +53,50 @@ O desenvolvimento do banco de dados no Azure SQL permitiu a aplicação prática
 ### Configuração do Ambiente Azure
 
 1. **Portal do Azure - Visão Geral**:
-   ![Visão Geral do Servidor SQL](./Images/01.png)
+   ![Visão Geral do Servidor SQL](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/01.png?token=GHSAT0AAAAAACQRPOXZVH3KMENTDNFNUQBIZS45LTQ)
+
    - Esta imagem mostra a visão geral do servidor SQL `amlogimoveserver`, incluindo informações sobre o grupo de recursos, assinatura, localização e administrador.
 
 ### Design do Banco de Dados
 
 2. **Tabela de Clientes**:
-   ![Tabela de Clientes](./Images/02.png)
+   ![Tabela de Clientes](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/02.png?token=GHSAT0AAAAAACQRPOXZF3LSFL6K433JFHR6ZS45N3Q)
    - Esta imagem mostra a estrutura da tabela `Clientes` no Azure Data Studio, com os campos `ClientID`, `Nome`, `Empresa`, `Endereço`, e `Contato`.
 
 3. **Tabela de Motoristas**:
-   ![Tabela de Motoristas](./Images/03.png)
+   ![Tabela de Motoristas](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/03.png?token=GHSAT0AAAAAACQRPOXYF5CDGKPB4FKZWUUUZS45OJQ)
    - Esta imagem mostra a estrutura da tabela `Motoristas` no Azure Data Studio, com os campos `MotoristaID`, `Nome`, `CNH`, `Telefone`, `DataNascimento`, e `HistoricoViagens`.
 
 4. **Tabela de Pedidos**:
-   ![Tabela de Pedidos](./Images/04.png)
+   ![Tabela de Pedidos](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/04.png?token=GHSAT0AAAAAACQRPOXZOHIACYNFTIDDRVMSZS45OXQ)
    - Esta imagem mostra a estrutura da tabela `Pedidos` no Azure Data Studio, com os campos `OrderID`, `ClientID`, `DriverID`, `DetalhesPedido`, `DataEntrega`, e `Status`.
 
 ### Implementação do Banco de Dados
 
 5. **Inserção de Dados na Tabela `Drivers`**:
-   ![Inserção de Dados na Tabela Drivers](./Images/05.png)
+   ![Inserção de Dados na Tabela Drivers](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/05.png?token=GHSAT0AAAAAACQRPOXZCH7TK57GBWCAJP42ZS45PGQ)
    - Esta imagem mostra a inserção de dados na tabela `Drivers`, incluindo a execução bem-sucedida do comando SQL.
 
 6. **Inserção de Dados na Tabela `Clients`**:
-   ![Inserção de Dados na Tabela Clients](./Images/06.png)
+   ![Inserção de Dados na Tabela Clients](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/06.png?token=GHSAT0AAAAAACQRPOXYMZOQCU5CORUF7TZ2ZS45PVQ)
    - Esta imagem mostra a inserção de dados na tabela `Clients`, incluindo a execução bem-sucedida do comando SQL.
 
 7. **Inserção de Dados na Tabela `Orders`**:
-   ![Inserção de Dados na Tabela Orders](./Images/07.png)
+   ![Inserção de Dados na Tabela Orders](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/07.png?token=GHSAT0AAAAAACQRPOXYFR2UWK6CRC3XRPJKZS45QCA)
    - Esta imagem mostra a inserção de dados na tabela `Orders`, incluindo a execução bem-sucedida do comando SQL.
 
 ### Consultas de Dados
 
 8. **Consulta na Tabela `Drivers`**:
-   ![Consulta na Tabela Drivers](./Images/08.png)
+   ![Consulta na Tabela Drivers](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/08.png?token=GHSAT0AAAAAACQRPOXY5TCH47H65JPNG26SZS45QSQ)
    - Esta imagem mostra a consulta dos dados inseridos na tabela `Drivers`.
 
 9. **Consulta na Tabela `Clients`**:
-   ![Consulta na Tabela Clients](./Images/09.png)
+   ![Consulta na Tabela Clients](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/09.png?token=GHSAT0AAAAAACQRPOXZ3GJR7UFWESHCRAXYZS45Q6Q)
    - Esta imagem mostra a consulta dos dados inseridos na tabela `Clients`.
 
 10. **Consulta na Tabela `Orders`**:
-    ![Consulta na Tabela Orders](./Images/10.png)
+    ![Consulta na Tabela Orders](https://raw.githubusercontent.com/madukisp/missao4-mundo4/main/Images/10.png?token=GHSAT0AAAAAACQRPOXY7P3JCWIPF5BRCK4QZS45RGA)
     - Esta imagem mostra a consulta dos dados inseridos na tabela `Orders`.
 
 ## Comandos SQL Utilizados
